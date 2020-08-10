@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 int main() {
-    double ave, count = 0, sum = 0, sumsd{}, sd;
+    double ave, count = 0, sum = 0, sumsd, sd;
     int num1, num2;
-    scanf_s("%d %d", &num1, &num2);
+    scanf("%d %d", &num1, &num2);
     if (num1 < num2) {
         for (int i = num1; i <= num2; i++)
         {
